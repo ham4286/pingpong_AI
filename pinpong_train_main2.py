@@ -22,7 +22,7 @@ def render(env, screen, episode):
 #게임 환경 및 학습 설정
 env = rainforce_train_2.PongEnv()
 agent = rainforce_train_2.DQNAgent(input_dim = 3, output_dim = 3)
-num_episodes = 2000
+num_episodes = 3000
 target_update_freq = 10
 batch_size = 64
 model_path = "model/dqn_model.pth"

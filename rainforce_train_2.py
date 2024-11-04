@@ -121,6 +121,7 @@ class PongEnv:
         
         else:
             reward = 0
+            
 
         
         return (self.paddle_x, self.ball_x, self.ball_y), reward, self.done
